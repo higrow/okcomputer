@@ -17,7 +17,8 @@ module OkComputer
       with_benchmarking do
         check
       end
-      OkComputer.logger.info "[okcomputer] #{to_text}"
+      method = success? ? :info : :warn
+      OkComputer.logger.send(method, "[okcomputer] #{to_text}")
     end
 
     # Private: Perform the appropriate check
