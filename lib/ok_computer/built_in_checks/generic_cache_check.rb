@@ -27,7 +27,7 @@ module OkComputer
     end
 
     def cache_key
-      "ock-generic-cache-check-#{Socket.gethostname}"
+      "okc-generic-cache-check-#{Socket.gethostname}"
     end
 
     def humanize_cache_store_name

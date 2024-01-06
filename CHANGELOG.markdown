@@ -1,3 +1,10 @@
+#### v1.18.5
+* Add tests for rails 7
+  > cbeer: https://github.com/sportngin/okcomputer/pull/174
+* Fix cache typo for GenericCacheCheck
+  > rmm5t: https://github.com/sportngin/okcomputer/pull/175
+* Various other changes
+
 #### v1.17.4
 * Update check times to display fractional seconds
   > stevendaniels: https://github.com/sportngin/okcomputer/pull/155
